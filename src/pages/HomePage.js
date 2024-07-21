@@ -20,7 +20,6 @@ export const HomePage = () => {
     }
 
     getPosts();
-    console.log("---");
   }, [toggle, postsRef])
 
   return (
